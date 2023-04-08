@@ -167,7 +167,7 @@ ol {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 700;
-	background: #7fad39;
+	background: #3975ad;
 	letter-spacing: 2px;
 }
 
@@ -178,7 +178,7 @@ ol {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 13px 30px 12px;
-	background: #7fad39;
+	background: #398cad;
 	border: none;
 }
 
@@ -524,7 +524,7 @@ ol {
 .header__cart ul li a span {
 	height: 13px;
 	width: 13px;
-	background: #7fad39;
+	background: #396bad;
 	font-size: 10px;
 	color: #ffffff;
 	line-height: 13px;
@@ -559,6 +559,9 @@ ol {
 /*---------------------
   Hero
 -----------------------*/
+body {
+	background-color: lightblue;
+}
 
 .hero {
 	padding-bottom: 50px;
@@ -587,7 +590,7 @@ ol {
 }
 
 .hero__categories__all {
-	background: #7fad39;
+	background: #3e5f72;
 	position: relative;
 	padding: 10px 25px 10px 40px;
 	cursor: pointer;
@@ -738,7 +741,7 @@ ol {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 4px;
-	color: #7fad39;
+	color: #399fad;
 }
 
 .hero__text h2 {
@@ -2614,7 +2617,7 @@ ol {
 -----------------------*/
 
 .footer {
-	background: #F3F6FA;
+	background: #355a77;
 	padding-top: 70px;
 	padding-bottom: 0;
 }

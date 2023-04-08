@@ -44,7 +44,7 @@ function Navbar() {
                                         </ul>
                                     </div>
                                     <div className="header__top__right__auth">
-                                        <a href="#"><i className="fa fa-user"></i>Đăng Nhập</a>
+                                        <a href="/dang-nhap"><i className="fa fa-user"></i>Đăng Nhập</a>
                                     </div>
                                 </div>
                             </div>
@@ -83,59 +83,6 @@ function Navbar() {
                     </div>
                 </div>
             </header>
-
-            <section className="hero">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-3">
-                            <div className="hero__categories">
-                                <div className="hero__categories__all">
-                                    <i className="fa fa-bars"></i>
-                                    <span>Danh Mục Sản Phẩm</span>
-                                </div>
-                                <ul>
-                                    <li><a href="#">Quần Áo Bóng Đá</a></li>
-                                    <li><a href="#">Quần Áo Thể Thao</a></li>
-                                    <li><a href="#">Dụng Cụ Tập Luyện Thể Thao</a></li>
-                                    <li><a href="#">Dụng Cụ Tập Luyện Bóng Đá</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-9">
-                            <div className="hero__search">
-                                <div className="hero__search__form">
-                                    <form action="#">
-                                        <div className="hero__search__categories">
-                                            All Categories
-                                            <span className="arrow_carrot-down"></span>
-                                        </div>
-                                        <input type="text" placeholder="What do yo u need?"/>
-                                            <button type="submit" className="site-btn">SEARCH</button>
-                                    </form>
-                                </div>
-                                <div className="hero__search__phone">
-                                    <div className="hero__search__phone__icon">
-                                        <i className="fa fa-phone"></i>
-                                    </div>
-                                    <div className="hero__search__phone__text">
-                                        <h5>01232585719</h5>
-                                        <span>Hỗ Trợ Khách Hàng 24/7</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="hero__item set-bg" data-setbg={Logo}>
-                                <div className="hero__text">
-                                    <span>Cửa Hàng Đồ Thể Thao SĐLB</span>
-                                    <h2>Các Sản Phẩm <br />Cam Kết 100% Chính Hãng</h2>
-                                    <p>Hãy Lựa Chọn Các Sản Phẩm Phù Hợp Nhất Cho Mình</p>
-                                    <a href="#" className="primary-btn">Mua Sắm Ngay</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <section className="categories">
                 <div className="container">
                     <div className="row">
