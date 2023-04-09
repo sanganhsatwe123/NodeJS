@@ -63,7 +63,7 @@ function Navbar() {
                                 <ul>
                                     <li><Link to='/'>Trang chủ</Link></li>
                                     <li><Link to='/san-pham'>Sản phẩm</Link></li>
-                                    <li><Link to='/tin-tuc'>Tin tức</Link></li>
+                                    <li><Link to='/bai-viet'>Tin tức</Link></li>
                                     <li><Link to='/lien-he'>Liên hệ</Link></li>
                                 </ul>
                             </nav>
